@@ -1,0 +1,30 @@
+
+h1 {
+    color: purple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    color: black;
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+
+section {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding:center;
+}
+
+nav {
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
