@@ -1,0 +1,154 @@
+img {
+    max-width: 100%;
+}
+
+.main nav {
+background-color: #FF4081;
+display: grid;
+padding-top: 10px;
+}
+
+body {
+margin: 0;
+}
+
+ul{
+list-style-type: none;
+margin: 0;
+display: flex;
+justify-content: right;
+padding-right: 60%;
+padding: 8px;
+gap: 40px;
+align-items: center;
+background-color: #FF4081;
+}
+
+h1 {
+margin: 0px;
+font-family: copperplate gothic bold;
+text-align: center;
+font-size: 50px;
+justify-content: center;
+}
+
+a {
+    color : white;
+    text-decoration: none;
+}
+
+
+
+.site-header {
+background-color: #FF4081;
+display: grid;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+
+}
+
+.under-header {
+    background-color:  #DB3328;
+    height: 450px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    Margin: 0;
+
+}
+
+.hero-image { 
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+h2, p {
+    text-align: center;
+    margin-top: 15px;
+    font-family: copperplate gothic bold;
+}
+
+
+h2 {
+    font-size: 30px;
+    color:  black;
+    font-family: copperplate gothic bold;
+    margin: 0%;
+    
+}
+p {
+    font-size: 20px;
+    color:  black;
+    font-family: copperplate gothic bold;
+    font-weight: bold;
+    margin: 0%;
+    
+    
+
+}
+
+
+.gallery-section {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 150px;
+    background-color:#E8D249;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    margin: 0;
+
+}
+
+
+
+.info {
+    display: flex;
+    background-color:#F57F17;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.info > * {
+    flex: 1 1 0;
+}
+
+.info-text {
+    text-align: left;
+    font-family: copperplate gothic bold;
+    font-size: 20px;
+    background-color: #F57F17;
+    /* flex-basis: 75%; */
+}
+
+
+.info-image img{
+    height: 100%;
+    object-fit: cover;
+}
+
+
+main h2, main p {
+    margin: 0px;
+    padding: 20px;
+}
+
+main {
+    background-color: #EAD44B;
+    padding: 50px 250px
+}
+
+.info img {
+border-radius: 20px;
+
+}
