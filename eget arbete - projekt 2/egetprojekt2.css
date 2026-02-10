@@ -238,7 +238,7 @@ padding: 0 2rem;
 
 @media (max-width: 768px) {
     .about-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 2fr;
         text-align: center;
     }
 
