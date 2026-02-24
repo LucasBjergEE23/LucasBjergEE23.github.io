@@ -144,6 +144,24 @@
    </div>
     
 </main>
+<script>
+function togglelike(projectId) {
+    const button = document.querySelector(`#heart-${projectId}`).parentNode;
+    const count = document.querySelector(`#count-${projectId}`);
+
+    if (button.classList.contains('liked')) {
+        button.classList.remove('liked');
+        heart.textContent = "🤍";
+        console.log("unlike")
+    } else {
+        button.classList.add('liked');
+        heart.textContent = "❤️";
+        console.log("like")
+    }
+}
+
+</script>
+
 
 
 
